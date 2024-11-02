@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List Example</title>
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1>My Shopping List</h1>
+
+    <div>
+      <label for="item">Enter a new item:</label>
+      <input type="text" name="item" id="item" placeholder="e.g., Apples" aria-label="New item">
+      <button id="add" aria-label="Add item">Add Item</button>
+      <div class="feedback" id="feedback"></div>
+    </div>
+
+    <ul>
+      <!-- List items will be added here dynamically -->
+    </ul>
+
+  </body>
+</html>
